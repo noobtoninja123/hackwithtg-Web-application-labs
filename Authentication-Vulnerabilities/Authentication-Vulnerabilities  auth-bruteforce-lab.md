@@ -1,7 +1,7 @@
 Authentication Brute Force Lab
 
 ## Lab Overview
-This lab demontrates how attackers exploit weak authentication protections to perform brute-force attacks.
+This lab demontrates how weak authentication mechanisms allow attackers to perform brute-force attacks against login functionality.
 
 ##Target
 Damn Vulnerable Web Application (DVWA).
