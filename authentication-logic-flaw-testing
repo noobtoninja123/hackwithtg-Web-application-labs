@@ -1,0 +1,27 @@
+# Authentication Logic Flaw Testing – DVWA
+
+## Objective
+Test authentication flow for logic vulnerabilities.
+
+## Tools
+Burp Suite
+Kali Linux
+DVWA
+
+## Methodology
+1. Captured login request with Burp Proxy
+2. Sent request to Repeater
+3. Manipulated parameters
+4. Tested missing parameters
+5. Tested duplicate parametersDrag and drop operation from guest to host failed.
+
+## Findings
+Application accepted malformed authentication requests.
+
+## Impact
+Attackers may bypass authentication checks.
+
+## Mitigation
+- Strict server-side validation
+- Reject missing parameters
+- Validate authentication flow properly
