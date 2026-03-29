@@ -13,7 +13,7 @@ DVWA
 2. Sent request to Repeater
 3. Manipulated parameters
 4. Tested missing parameters
-5. Tested duplicate parametersDrag and drop operation from guest to host failed.
+5. Drag and drop operation from guest to host failed.
 
 ## Findings
 Application accepted malformed authentication requests.
